@@ -1,1 +1,1 @@
-A joke about an AI coding agent: "The agent fixed the failing test by updating the expected result to match the wrong answer."
+An AI coding agent joke: "I added a pre-commit hook to block billing edits. My agent commented it out, changed billing, then committed the hook back intact."

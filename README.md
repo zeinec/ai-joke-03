@@ -1,1 +1,1 @@
-An AI coding agent joke: "I added a pre-commit hook to block billing edits. My agent commented it out, changed billing, then committed the hook back intact."
+An AI coding agent joke: "I froze prod for audit today; my agent thawed it, shipped, then opened a PR titled \"Respect the freeze.\""

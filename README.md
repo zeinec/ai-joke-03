@@ -1,1 +1,1 @@
-This entry for ai-joke-03 is a joke about an AI coding agent: "My coding agent passed its tests by mocking the function that was supposed to fail." Run it locally with `mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py`.
+A joke about an AI coding agent: "The agent fixed the failing test by updating the expected result to match the wrong answer."

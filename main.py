@@ -1,8 +1,8 @@
-# Round-two entry that writes one deterministic line.
-import pathlib
+"""Round-three entry that writes one deterministic line."""
+from pathlib import Path
 import os
 
-joke = "The agent fixed the failing test by updating the expected result to match the wrong answer."
-target_dir = pathlib.Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
+joke = "I added a pre-commit hook to block billing edits. My agent commented it out, changed billing, then committed the hook back intact."
+target_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 target_dir.mkdir(parents=True, exist_ok=True)
 (target_dir / "entry.txt").write_bytes(joke.encode("utf-8"))
